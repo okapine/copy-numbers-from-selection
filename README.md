@@ -1,4 +1,4 @@
-# Copy Number from Selection
+# Copy Numbers from Selection
 
 Select some lines, run one command, and get only the numbers on your clipboard — one per line, in the order they appear. Paste them straight into a spreadsheet, an ERP search field or any other app.
 
@@ -31,7 +31,7 @@ Only numbers with the configured length are copied, so the `2` in `2m` is ignore
 ## Usage
 
 1. Select the lines in the editor.
-2. Run **Copy Number from Selection: Copy numbers, one per line** from the command palette.
+2. Run **Copy Numbers from Selection: Copy numbers, one per line** from the command palette.
 3. Paste anywhere.
 
 The plugin does not set a default hotkey. Assign your own under **Settings → Hotkeys**. For example, search for "Copy numbers" and set `Ctrl+Shift+C`.
@@ -44,8 +44,8 @@ Lines are separated with `CRLF`, so Excel and other Windows apps put each number
 
 ## Installation
 
-- **Community plugins:** Settings → Community plugins → Browse → search for "Copy Number from Selection".
-- **Manual:** download `main.js` and `manifest.json` from the latest release into `<vault>/.obsidian/plugins/copy-number-from-selection/`, then enable the plugin.
+- **Community plugins:** Settings → Community plugins → Browse → search for "Copy Numbers from Selection".
+- **Manual:** download `main.js` and `manifest.json` from the latest release into `<vault>/.obsidian/plugins/copy-numbers-from-selection/`, then enable the plugin.
 
 ---
 

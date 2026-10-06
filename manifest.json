@@ -1,6 +1,6 @@
 {
-  "id": "copy-number-from-selection",
-  "name": "Copy Number from Selection",
+  "id": "copy-numbers-from-selection",
+  "name": "Copy Numbers from Selection",
   "version": "1.0.0",
   "minAppVersion": "1.8.7",
   "description": "Copy the numbers in the selected lines to the clipboard, one per line, in the order they appear.",

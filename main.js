@@ -53,7 +53,7 @@ class CopyNumberSettingTab extends PluginSettingTab {
   }
 }
 
-module.exports = class CopyNumberFromSelection extends Plugin {
+module.exports = class CopyNumbersFromSelection extends Plugin {
   async onload() {
     this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
     const msg = MESSAGES[getLanguage()] || MESSAGES.en;
